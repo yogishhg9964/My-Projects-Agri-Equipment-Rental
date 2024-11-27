@@ -31,12 +31,7 @@ The **Agricultural Equipment Rental Project** is a platform designed to simplify
    ```bash
    npm install
 
-3. **Set Up Environment Variables**:
-   Create a .env file and add your database connection string, API keys, and other configurations.
-   ```bash
-    DATABASE_URL=your_database_url
-    PAYMENT_GATEWAY_API_KEY=your_api_key
-5. **Run the Application**:
+3. **Run the Application**:
     ```bash
     npm start
    Access the platform at http://localhost:3000.
