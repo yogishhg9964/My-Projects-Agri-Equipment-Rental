@@ -21,7 +21,8 @@
     "mongose": "^0.0.2-security",
     "nodemon": "^2.0.22",
     "react-bootstrap": "^2.7.4",
-    "react-bootstrap-carousel": "^4.1.1"
+    "react-bootstrap-carousel": "^4.1.1",
+    "server": "file:"
   },
   "description": ""
 }
