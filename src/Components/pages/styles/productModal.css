@@ -1,0 +1,94 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.modal-body {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.modal-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.modal-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.modal-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.modal-price {
+  font-size: 24px;
+  color: #002d5e;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.modal-description {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.modal-cart-btn {
+  margin-top: 20px;
+  background-color: #002d5e;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.modal-cart-btn:hover {
+  background-color: rgb(5, 5, 139);
+}
+
+@media (max-width: 768px) {
+  .modal-body {
+    flex-direction: column;
+  }
+  
+  .modal-image {
+    max-width: 100%;
+  }
+}
