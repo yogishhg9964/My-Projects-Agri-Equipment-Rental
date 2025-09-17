@@ -7,7 +7,6 @@ The **Agricultural Equipment Rental Project** is a platform designed to simplify
 - **Equipment Listing**: Owners can list their agricultural tools and machinery for rent with details like price, availability, and condition.
 - **Search and Filter**: Farmers can search and filter equipment based on type, location, and cost.
 - **Booking System**: A user-friendly interface for farmers to book equipment and manage rentals.
-- **Payment Integration**: Secure payment options for seamless transactions.
 - **User Authentication**: Secure login and signup for both owners and renters.
 - **Notifications**: Alerts for booking confirmations, payment status, and rental reminders.
 
@@ -17,9 +16,9 @@ The **Agricultural Equipment Rental Project** is a platform designed to simplify
 - Enhances agricultural productivity.
 
 ## Tech Stack
-- **Frontend**: HTML, CSS, JavaScript (or React for dynamic UI).
-- **Backend**: Node.js, Express.js (or Python Django).
-- **Database**: MongoDB/MySQL for storing user and rental data.
+- **Frontend**: React for dynamic UI. 
+- **Backend**: Node.js.
+- **Database**: MongoDB for storing user and rental data.
 - **Additional Tools**: APIs for location-based services, Payment Gateway APIs.
 
 ## How to Run
@@ -42,6 +41,7 @@ The **Agricultural Equipment Rental Project** is a platform designed to simplify
 - 📱 Mobile App: Develop a user-friendly mobile application for easier access.
 - 🌐 Multi-Language Support: Cater to regional users with support for multiple languages.
 - ⭐ Reviews & Ratings: Allow users to rate equipment and provide feedback.
+- 💰 Payment Integration: Secure payment options for seamless transactions.
 
 ## 🛠️ **Contributing**
 💡 We welcome contributions! Here’s how you can help:
